@@ -20,23 +20,54 @@
     </header>
 
     <main>
-        <section class="hero">
-            <div class="hero-content">
-                <h1>Bienvenido a Agencia Web</h1>
-                <p>Diseñamos y desarrollamos sitios modernos con HTML, CSS, Flex y Grid.</p>
-            </div>
-        </section>
+        <h1>Contacto</h1>
+        
+        <section class="contact-form-section" style="
+            max-width: 400px; 
+            margin: 0 auto 50px auto; 
+            padding: 20px;
+        ">
+            <form action="#" method="POST" class="contact-form" style="
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+            ">
+                
+                <input type="text" id="nombre" name="nombre" placeholder="Nombre" style="
+                    padding: 10px;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                    font-size: 1rem;
+                " required>
 
-        <section class="features">
-            <div class="feature-card">
-                <h3>Diseño moderno</h3>
-            </div>
-            <div class="feature-card">
-                <h3>Código Limpio</h3>
-            </div>
-            <div class="feature-card">
-                <h3>Responsive</h3>
-            </div>
+                <input type="email" id="correo" name="correo" placeholder="Correo" style="
+                    padding: 10px;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                    font-size: 1rem;
+                " required>
+
+                <textarea id="mensaje" name="mensaje" placeholder="Mensaje..." rows="6" style="
+                    padding: 10px;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                    font-size: 1rem;
+                    resize: vertical;
+                " required></textarea>
+
+                <button type="submit" style="
+                    padding: 10px 15px;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                    background-color: var(--light-bg-color); /* Usando una variable de tu CSS */
+                    color: var(--text-dark);
+                    font-size: 1rem;
+                    cursor: pointer;
+                    margin-top: 10px;
+                ">
+                    Enviar
+                </button>
+            </form>
         </section>
     </main>
 
