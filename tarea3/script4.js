@@ -1,0 +1,1 @@
+const cambiarCiudad = p => { p.ciudadResidencia = "Arequipa"; return p; };
