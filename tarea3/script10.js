@@ -1,4 +1,4 @@
-const el=document.getElementById("texto");
-el.textContent="DOM modificado con JavaScript";
-el.style.color="red";
-el.style.fontSize="24px";
+const elemento = document.getElementById("texto");
+elemento.textContent = "DOM modificado con JavaScript";
+elemento.style.color = "blue";
+elemento.style.fontSize = "24px";

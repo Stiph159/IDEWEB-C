@@ -1,4 +1,8 @@
-  const porId=document.getElementById("p1");
-  const porEtiqueta=document.getElementsByTagName("p");
-  const porClase=document.getElementsByClassName("comun");
-  console.log(porId,porEtiqueta,porClase);
+const parrafoPorId = document.getElementById("parrafo1");
+console.log(parrafoPorId);
+
+const parrafosPorEtiqueta = document.getElementsByTagName("p");
+console.log(parrafosPorEtiqueta);
+
+const parrafosPorClase = document.getElementsByClassName("texto");
+console.log(parrafosPorClase);
