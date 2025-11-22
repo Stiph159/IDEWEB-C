@@ -1,0 +1,15 @@
+#cuadro {
+    width: 80px;
+    height: 80px;
+    background: red;
+    position: relative;
+}
+
+.mover {
+    animation: desplazar 2s forwards;
+}
+
+@keyframes desplazar {
+    from { left: 0; }
+    to { left: 300px; }
+}
